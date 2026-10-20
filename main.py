@@ -13,7 +13,7 @@ async def root():
 async def test():
     return {"message": "It works good! version = 20260605_1051"}
 
-@app.get("/get_key1")
+@app.get("/get_key2")
 async def get_key1():
     return {"message": os.getenv("test_key1")}
 
