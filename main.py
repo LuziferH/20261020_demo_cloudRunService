@@ -19,7 +19,7 @@ async def get_key1():
 
 @app.get("/get_project")
 async def get_key():
-    return {"message": os.getenv("PROJECT_ID")}
+    return {"message": os.getenv("ar1729")}
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=True)
